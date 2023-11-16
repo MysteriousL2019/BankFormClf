@@ -26,9 +26,14 @@
 | 16  | poutcome    | Categorical: Outcome of the previous marketing campaign. Possible values: "unknown","other","failure","success". | String  |
 | 17  | y           | Binary: Has the client subscribed a term deposit? Possible values: "yes","no".                     | String  |
 ### Using improved to analysis the tabular data
-<img src="image.png" alt="Alt text" width="550" >
 
-* Visualize the Fusion Matrix
-<img src="image-1.png" alt="Alt text" width="550" >
-</br>
-<img src="image-2.png" alt="Alt text" width="550" >
+* Basic idea is to make the non-numeric data into the encoder module of transformer to get better performance.
+* If the dataset gets larger, this model may have better performance than GBDT models such as LightGBM and XGBoost.
+
+<img src="image.png" alt="Alt text" width="550">
+
+* Visualize the Confusion Matrix
+
+  <img src="image-1.png" alt="Alt text" width="550">
+
+  <img src="image-2.png" alt="Alt text" width="550">
