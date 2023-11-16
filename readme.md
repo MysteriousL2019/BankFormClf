@@ -29,6 +29,7 @@
 
 * Basic idea is to make the non-numeric data into the encoder module of transformer to get better performance.
 * If the dataset gets larger, this model may have better performance than GBDT models such as LightGBM and XGBoost.
+* Trained environment: Colab free GPU Tesla T4 running 4 hours.
 
 <img src="image.png" alt="Alt text" width="550">
 
